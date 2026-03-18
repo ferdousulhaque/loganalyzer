@@ -1,0 +1,13 @@
+fastapi==0.135.1
+langchain_community==0.4.1
+langchain_core==1.2.19
+langchain_ollama==1.0.1
+langchain_openai==1.1.11
+langchain_text_splitters==1.1.1
+python-dotenv==1.2.2
+uvicorn==0.42.0
+openai==1.57.0
+tiktoken==0.8.0
+fastapi==0.115.0
+uvicorn==0.32.0
+python-multipart==0.0.12
