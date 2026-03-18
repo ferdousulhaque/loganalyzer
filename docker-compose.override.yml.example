@@ -17,6 +17,15 @@ services:
       sleep 10 &&
       ollama pull mistral &&
       wait"
-
+  log-analyzer:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      - PORT=8000
+    volumes:
+      - .:/app
+    depends_on:
+      - ollama
 volumes:
   ollama_data:
