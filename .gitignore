@@ -46,3 +46,7 @@ Thumbs.db
 
 # Heroku
 .heroku/
+
+# env and docker-compose
+.env
+docker-compose.override.yml
